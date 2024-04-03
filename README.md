@@ -1,54 +1,37 @@
 # RandomForest_Marketing-Template
-Variable list: 
-
-upgrade_price
-age
-n_purchase
-discount_purchase
-n_reward
-n_first_class
-n_second_class
-n_third_class
-n_fourth_class
-avg_npassengers
-avg_price
-sdt_dev_price
-avg_distance
-sdt_dev_distance
-since_last_purchase
-n_sent_reminder
-n_open_reminder
-avg_opens_reminder
-n_click_reminder
-avg_clicks_reminder
-n_sent_upgrade
-n_open_upgrade
-avg_opens_upgrade
-n_click_upgrade
-avg_clicks_upgrade
-n_sent_discount
-n_open_discount
-avg_opens_discount
-n_click_discount
-avg_clicks_discount
-price
-days_2_trip
-is_second_class
-distance
-n_sessions
-n_bounces
-n_hits
-total_session_duration
-total_revenue
-conversions
-n_search
-n_path
-avg_hits
-avg_session_duration
-avg_revenue
-success
-
-
-![image](https://github.com/kaleyboggs/RandomForest_Marketing-Template/assets/165418922/da58159c-6c20-437d-b35b-c2ebaff59b9f)
-
-
+Previous purchase and general user information from CRM:
+age: The user age
+n_purchase: Amount of purchase done from the user
+discount_purchase: Amount of purchase using a promo code
+n_reward: Amount of purchase using loyalty reward points
+n_environmet: Number of trips done in the given environment
+avg_npassengers: Average amount of passengers per trip
+avg_price: Average tickets price
+sdt_dev_price: Standard deviation from the tickets price
+avg_distance: Average travel distance
+sdt_dev_distance: Standard deviation from the travel
+since_last_purchase: Amount of days since the last purchase
+Email interaction information:
+n_sent_campaign: Amount of sent emails from the given campaign
+n_open_campaign: Amount of open emails from the given campaign
+avg_opens_campaign: Average amount of times the user opens the campaign email
+n_click_campaign: Amount of emails from campaign “Reminder” that had its link clicked
+avg_clicks_reminder: Average amount of times the user clicks the link in the campaign email
+Web navigation collected from Analytics:
+n_sessions: Total amount of sessions
+n_bounces: Total amount of bounces
+n_hits: Total amount of hits given by the user
+avg_hits: Average amount of hits per session
+total_session_duration: Total amount of time with open session
+avg_session_duration: Average sessions duration
+total_revenue: Total revenue gotten by the user
+avg_revenue: Average revenue per session
+conversions: Total number of conversions done by the user
+avg_conversion: Average conversions per session
+n_search: Number of different researches done by the user
+n_path: Number of different paths searched by the user
+Description of the current trip to upgrade:
+price: Original ticket price
+is_second_class: Boolean value to inform if the ticket were initially second class
+distance: Linear distance between origin and destination
+days_2_trip: days between sending the email and the trip
