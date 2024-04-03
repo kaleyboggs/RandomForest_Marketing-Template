@@ -62,8 +62,16 @@ avg_conversion: Average conversions per session
 n_search: Number of different researches done by the user
 
 n_path: Number of different paths searched by the user
+
 Description of the current trip to upgrade:
+
 price: Original ticket price
+
 is_second_class: Boolean value to inform if the ticket were initially second class
+
 distance: Linear distance between origin and destination
+
 days_2_trip: days between sending the email and the trip
+
+Data Set: Used in this publication: Giulia De Poli, Maria Angélica Lobo Paulino, Stefania Tola, Manuela Bazzarelli, Leone De Marco and Matteo Bregonzio
+ICDSST 2020, Zaragoza, Spain
