@@ -1,4 +1,4 @@
-# RandomForest_Marketing-Template
+# RandomForest_Marketing-DataSet
 Previous purchase and general user information from CRM:
 
 age: The user age
